@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locomotive Scroll Tryout</title>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div data-scroll-container>
+    <div data-scroll-section class="main">
+        <h1>
+            <span data-scroll data-scroll-speed="6" data-scroll-position="top">Hey</span> 
+            <span data-scroll data-scroll-speed="2" data-scroll-position="top" class="c-orange">/</span> 
+            <span data-scroll data-scroll-speed="4" data-scroll-position="top">there!</span>
+            </h1>
+            <div class="square pos-lb" data-scroll data-scroll-speed="8" data-scroll-position="top"></div>
+            <div class="circle pos-rt" data-scroll data-scroll-speed="3" data-scroll-position="top"></div>
+    </div>
+    <div data-scroll-section class="secondary">
+        <hr data-scroll data-scroll-position="top" data-scroll-speed="5" data-scroll-direction="horizontal" class="subtle-rule">
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
